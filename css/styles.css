@@ -1,0 +1,102 @@
+* {
+  font-family: "Alata", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background-color: #fff09b;
+  background-image: linear-gradient(90deg, rgba(247, 204, 110, 0.5019607843) 20px, transparent 20px), linear-gradient(rgba(247, 204, 110, 0.5019607843) 20px, transparent 20px);
+  background-position: 10px 10px;
+  background-size: 44px 44px;
+}
+
+h1 {
+  font-size: 70px;
+  font-family: "Alata", sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Chewy", system-ui;
+  color: #bd5c0e;
+}
+
+h3 {
+  background-color: #bd5c0e;
+  padding-left: 5px;
+  color: #f7cc6e;
+}
+
+h4 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Chewy", system-ui;
+  color: #bd5c0e;
+}
+
+p {
+  background-color: #fff;
+  padding: 10px;
+  border: 2px solid #fff;
+}
+
+nav {
+  background-color: #f7cc6e;
+}
+
+.quote {
+  color: #bd5c0e;
+  margin: 0 5px;
+  font-size: 36px;
+}
+
+.pquote {
+  background-color: transparent;
+  border: none;
+  color: #bd5c0e;
+  font-size: 30px;
+}
+
+.profile {
+  max-height: 300px;
+}
+
+.recipe {
+  max-height: 700px;
+}
+
+/*CSS ANIMATION*/
+.floating {
+  -webkit-animation: float 2s ease-in-out infinite;
+          animation: float 2s ease-in-out infinite;
+}
+
+@-webkit-keyframes float {
+  0% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+  50% {
+    -webkit-transform: translatey(-10px);
+            transform: translatey(-10px);
+  }
+  100% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+}
+
+@keyframes float {
+  0% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+  50% {
+    -webkit-transform: translatey(-10px);
+            transform: translatey(-10px);
+  }
+  100% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+}

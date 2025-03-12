@@ -1,0 +1,51 @@
+@use 'colors';
+@use 'fonts';
+
+*{
+    font-family: fonts.$content;
+    font-size:18px;
+}
+
+body{
+    background-color: #fff09b;
+    background-image: linear-gradient(90deg, #f7cc6e80 20px, transparent 20px), linear-gradient(#f7cc6e80 20px, transparent 20px);
+    background-position: 10px 10px;
+    background-size: 44px 44px;
+}
+
+h1{
+    font-size: 70px;
+    font-family: fonts.$content;
+}
+h2 {
+    font-size: 30px;
+    font-family: fonts.$header;
+    color: colors.$dark;
+}
+h3{
+    background-color: colors.$dark;
+    padding-left: 5px;
+    color: colors.$medium;
+
+}
+
+h4{
+    text-align: center;
+    font-size: 30px;
+    font-family: fonts.$header;
+    color: colors.$dark;
+}
+p{
+    background-color: colors.$light;
+    padding: 10px;
+    border: 2px solid colors.$light;
+}
+
+nav{
+    background-color: colors.$medium;
+}
+
+
+
+
+@import 'intro';
