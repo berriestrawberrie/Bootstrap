@@ -21,25 +21,50 @@ h2 {
   font-family: "Alata", sans-serif;
   text-transform: uppercase;
   color: #bd5c0e;
+  opacity: 0.8;
 }
 
 h3 {
-  background-color: #bd5c0e;
   padding-left: 5px;
-  color: #f7cc6e;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Chewy", system-ui;
+  color: #bd5c0e;
+  margin-bottom: -5px;
 }
 
 h4 {
   text-align: center;
   font-size: 30px;
-  font-family: "Chewy", system-ui;
+  font-family: "Alata", sans-serif;
+  text-transform: uppercase;
   color: #bd5c0e;
+  opacity: 0.8;
 }
 
 p {
-  background-color: #fff;
   padding: 10px;
-  border: 2px solid #fff;
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+
+.body-btn {
+  width: 200px;
+  background-color: #bd5c0e;
+  border-radius: 0;
+  margin-bottom: -20px;
+  color: #fff5e5;
+  font-family: "Chewy", system-ui;
+  font-size: 23px;
+  letter-spacing: 2px;
+  z-index: 9;
+  text-transform: uppercase;
+}
+
+.body-btn:hover {
+  background-color: #fff5e5;
+  color: #bd5c0e;
+  border: 2px solid #bd5c0e;
 }
 
 .logo {
@@ -51,25 +76,24 @@ a:hover {
   opacity: 0.8;
 }
 
-.quote {
-  color: #bd5c0e;
-  margin: 0 5px;
-  font-size: 36px;
+.intro__image {
+  max-width: 900px;
+  border: 2px solid #bd5c0e;
+}
+.intro__sub {
+  background-color: #fff5e5;
+  border: 2px solid #bd5c0e;
+  width: 60%;
+  margin-top: -50px;
 }
 
-.pquote {
-  background-color: transparent;
-  border: none;
-  color: #bd5c0e;
-  font-size: 30px;
-}
-
-.profile {
-  max-height: 300px;
-}
-
-.recipe {
-  max-height: 700px;
+.syrup {
+  width: 90px;
+  position: absolute;
+  bottom: -20px;
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+  right: -20px;
 }
 
 /*CSS ANIMATION*/

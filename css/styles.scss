@@ -23,27 +23,52 @@ h2 {
     font-family: fonts.$content;
     text-transform: uppercase;
     color: colors.$dark;
+    opacity: .8;
    
 }
 h3{
-    background-color: colors.$dark;
     padding-left: 5px;
-    color: colors.$medium;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: fonts.$header;
+    color: colors.$dark;
+    margin-bottom: -5px;
 
 }
 
 h4{
     text-align: center;
     font-size: 30px;
-    font-family: fonts.$header;
+    font-family: fonts.$content;
+    text-transform: uppercase;
     color: colors.$dark;
+    opacity: .8;
+    
 }
 p{
-    background-color: colors.$light;
     padding: 10px;
-    border: 2px solid colors.$light;
+    letter-spacing: 1.2px;
+    text-align: center;
 }
 
+.body-btn{
+    width: 200px;
+    background-color: colors.$dark;
+    border-radius: 0;
+    margin-bottom: -20px;
+    color: colors.$light;
+    font-family: fonts.$header;
+    font-size: 23px;
+    letter-spacing: 2px;
+    z-index: 9;
+    text-transform: uppercase;
+}
+.body-btn:hover{
+    background-color: colors.$light;
+    color: colors.$dark;
+    border: 2px solid colors.$dark;
+
+}
 
 .logo{
     width: 40px;
@@ -57,4 +82,3 @@ a:hover{
 
 
 @import 'intro';
-@import 'center';
