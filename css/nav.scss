@@ -1,0 +1,17 @@
+@use 'colors';
+@use 'fonts';
+
+
+
+nav{
+    background-color: colors.$medium;
+    height: 120px;
+    
+}
+
+.navbar-nav{
+    a{
+        color: colors.$dark !important;
+    }
+
+}

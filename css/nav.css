@@ -1,0 +1,8 @@
+nav {
+  background-color: #f7cc6e;
+  height: 120px;
+}
+
+.navbar-nav a {
+  color: #bd5c0e !important;
+}
