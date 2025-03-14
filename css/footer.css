@@ -1,0 +1,16 @@
+footer .row {
+  background-color: #bd5c0e;
+}
+footer ul {
+  list-style: none;
+}
+footer a {
+  color: #fff5e5;
+}
+footer a:hover {
+  color: #f7cc6e;
+}
+
+.tiny {
+  font-size: 10px;
+}

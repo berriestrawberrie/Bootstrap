@@ -42,6 +42,12 @@ h4 {
   opacity: 0.8;
 }
 
+h5 {
+  font-size: 12px;
+  font-family: "Alata", sans-serif;
+  color: #fff5e5;
+}
+
 p {
   padding: 10px;
   letter-spacing: 1.2px;
@@ -71,11 +77,22 @@ p {
   width: 40px;
 }
 
+a {
+  text-decoration: none;
+  color: #fff5e5;
+}
+
 a:hover {
   translate: 0 -10px;
+  color: #bd5c0e;
   opacity: 0.8;
 }
 
+@media screen and (max-width: 449px) {
+  .search {
+    display: none !important;
+  }
+}
 .intro__image {
   max-width: 900px;
   border: 2px solid #bd5c0e;
@@ -130,4 +147,27 @@ a:hover {
     -webkit-transform: translatey(0px);
             transform: translatey(0px);
   }
+}
+.contact {
+  min-height: 500px;
+}
+.contact form {
+  width: 80%;
+}
+
+.contact-btn {
+  width: 100%;
+  border: none;
+}
+
+.card-title {
+  font-family: "Chewy", system-ui;
+  font-size: 20px;
+  text-align: center;
+  color: #bd5c0e;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.5647058824);
+  border: 1px solid #f7cc6e;
 }

@@ -1,0 +1,22 @@
+@use 'colors';
+@use 'fonts';
+
+footer{
+    .row{
+        background-color: colors.$dark;
+    }
+    ul{
+        list-style: none;
+    
+    }
+    a{
+        color: colors.$light;
+    }
+    a:hover{
+        color: colors.$medium;
+    }
+}
+
+.tiny{
+    font-size: 10px;
+}

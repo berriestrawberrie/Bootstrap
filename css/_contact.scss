@@ -1,0 +1,16 @@
+@use 'colors';
+@use 'fonts';
+
+
+.contact{
+    min-height: 500px;
+    form{
+        width: 80%;
+        
+    }
+}
+
+.contact-btn{
+    width: 100%;
+    border: none;
+}

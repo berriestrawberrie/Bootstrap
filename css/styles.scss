@@ -43,8 +43,15 @@ h4{
     text-transform: uppercase;
     color: colors.$dark;
     opacity: .8;
+}
+
+h5{
+    font-size: 12px;
+    font-family: fonts.$content;
+    color: colors.$light;
     
 }
+
 p{
     padding: 10px;
     letter-spacing: 1.2px;
@@ -73,12 +80,25 @@ p{
 .logo{
     width: 40px;
 }
-
+a{
+    text-decoration: none;
+    color: colors.$light;
+}
 a:hover{
     translate: 0 -10px;
+    color: colors.$dark;
     opacity: .8;
+}
+
+
+@media screen and (max-width: 449px) {
+
+    .search{display:none !important;}
+    
 }
 
 
 
 @import 'intro';
+@import 'contact';
+@import 'recipes';

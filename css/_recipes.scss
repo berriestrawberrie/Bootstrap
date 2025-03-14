@@ -1,0 +1,17 @@
+@use 'colors';
+@use 'fonts';
+
+
+.card-title{
+    font-family: fonts.$header;
+    font-size: 20px;
+    text-align: center;
+    color: colors.$dark;
+   
+}
+
+.card{
+    background-color: #ffffff90;
+    border: 1px solid colors.$medium;
+
+}
